@@ -14,6 +14,7 @@ import com.automation.Utility.Helper;
 
 public class VerifyOrangeLogin2 extends BaseClass1 {
 	
+//login to Orange HCM
 @Test
 public void VerifyValidLogin()
    {
