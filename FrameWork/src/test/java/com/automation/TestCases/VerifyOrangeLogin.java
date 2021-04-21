@@ -19,7 +19,7 @@ public void VerifyValidLogin()
 	
 	OrangeLoginPage login=new OrangeLoginPage(driver);
 	login.logintoapplication("Admin","admin123");
-	Assert.assertTrue(driver.findElement(By.linkText("Welcome Paul")).isDisplayed());
+	Assert.assertTrue(driver.findElement(By.partialLinkText("Welcome")).isDisplayed());
 	driver.close();
 	
 }

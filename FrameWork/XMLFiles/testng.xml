@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.automation.TestCases.LoginToWordPress"/>
+      <class name="com.automation.TestCases.VerifyOrangeLogin2"/>
+      <class name="com.automation.Pages.BaseClass1"/>
+      <class name="com.automation.TestCases.VerifyOrangeLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

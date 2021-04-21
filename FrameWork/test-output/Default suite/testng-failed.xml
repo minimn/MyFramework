@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.TestCases.VerifyOrangeLogin2">
+      <class name="com.automation.TestCases.VerifyOrangeLogin">
         <methods>
-          <include name="setUpSuite"/>
-          <include name="tearDown"/>
-          <include name="tearDownMethod"/>
           <include name="VerifyValidLogin"/>
-          <include name="SetUp"/>
         </methods>
-      </class> <!-- com.automation.TestCases.VerifyOrangeLogin2 -->
+      </class> <!-- com.automation.TestCases.VerifyOrangeLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
